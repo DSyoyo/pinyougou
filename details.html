@@ -1,0 +1,687 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>商品详情</title>
+	<!-- 引入初始化css样式 -->
+	<link rel="stylesheet" href="css/normaliz.css">
+	<!-- 引入公共类 -->
+	<link rel="stylesheet" href="css/common.css">
+	<!-- 引入icon图标 -->
+	<link rel="stylesheet" href="fonts/iconfont.css">
+	<!-- 引用当前页面对应的css文件 -->
+	<link rel="stylesheet" href="css/details.css">
+</head>
+<body>
+	<!-- 头部开始 -->
+	<header class="top">
+	    <!-- 头部直通车 -->
+		<div class="short-cut">
+			<div class="container clearfix">
+				<div class="short-cutl fl">
+					品优购欢迎您！
+					<a class="ml-5" href="#">请登录</a>
+					<a class="ml-5" href="#">免费注册</a>
+				</div>
+				<div class="short-cutr fr">
+					<ul>
+						<li><a href="#">我的订单</a></li>
+						<li class="line"></li>
+						<li>
+						   <a href="#">我的品优购</a>
+						   <i class="iconfont icon-xiajiantou"></i>
+						</li>
+						<li class="line"></li>
+						<li><a href="#">品优购会员</a></li>
+						<li class="line"></li>
+						<li><a href="#">企业采购</a></li>
+						<li class="line"></li>
+						<li>
+						   <a href="#">关注品优购</a>
+						   <i class="iconfont icon-xiajiantou"></i>
+						</li>
+						<li class="line"></li>
+						<li>
+						   <a href="#">客户服务</a>
+						   <i class="iconfont icon-xiajiantou"></i>
+						</li>
+						<li class="line"></li>
+						<li>
+						    <a href="#">网站导航</a>
+						    <i class="iconfont icon-xiajiantou"></i>
+						</li>
+						<li class="line"></li>
+					</ul>
+				</div>	
+			</div>
+	    </div>
+			<!-- 头部搜索 -->
+		<div class="top-c container clearfix">
+			<div class="logo">
+				<!-- 这段文字是给搜索引擎去看的 -->
+				<h1>品优购</h1>
+			</div>
+			<div class="search">
+				<input type="text" placeholder="请输入关键字">
+				<button>
+					<i class="iconfont icon-fangdajing"></i>
+				</button>
+			</div>
+			<div class="classi">
+				<a class="m-color" href="">优惠购首发</a>
+				<a href="">亿元优惠</a>
+				<a href="">9.9元团购</a>
+				<a href="">美满99减30</a>
+				<a href="">办公用品</a>
+				<a href="">电脑</a>
+				<a href="">通信</a>
+			</div>
+			<!-- 购物车 -->
+		    <div class="cart">
+			    <i class="m-color iconfont icon-gouwuchekong"></i>
+			    我的购物车
+			    <i class="iconfont icon-youjiantou"></i>
+                <div class="count">0</div>
+                <div class="cart-info">
+                	<div class="white-line"></div>
+                </div>
+		    </div>
+		</div>
+		<div class="classify-nav container clearfix">
+			<div class="cn-l fl">全部商品分类
+			    <div class="cn-list">
+			    	<ul>
+			    		<li>
+			    		   <a href="">家用电器</a>
+			    		   <i class="iconfont icon-youjiantou"></i>
+			    		</li>
+			    		<li>
+			    		   <a href="">手机、</a>
+			    		   <a href="">数码、</a>
+			    		   <a href="">通信</a>
+			    		   <i class="iconfont icon-youjiantou"></i>
+			    		</li>
+			    		<li>
+			    		   <a href="">电脑、</a>
+			    		   <a href="">办公、</a> 
+			    		   <i class="iconfont icon-youjiantou"></i>
+			    		</li>
+			    		<li>
+			    		   <a href="">家居、</a>
+			    		   <a href="">家具、</a>
+			    		   <a href="">家装、</a>
+			    		   <a href="">厨具</a>
+			    		   <i class="iconfont icon-youjiantou"></i>
+			    		</li>
+			    		<li>
+			    		   <a href="">男装、</a>
+			    		   <a href="">女装、</a>
+			    		   <a href="">童装、</a>
+			    		   <a href="">内衣</a>
+			    		   <i class="iconfont icon-youjiantou"></i>
+			    		</li>
+			    		<li>
+			    		   <a href="">个人化妆、</a>
+			    		   <a href="">清洁用品、</a>
+			    		   <a href="">宠物</a>
+			    		   <i class="iconfont icon-youjiantou"></i>
+			    		</li>
+			    		<li>
+			    		   <a href="">鞋靴、</a>
+			    		   <a href="">箱包、</a>
+			    		   <a href="">珠宝、</a>
+			    		   <a href="">奢侈品</a>
+			    		   <i class="iconfont icon-youjiantou"></i>
+			    		</li>
+			    		<li> 
+			    		   <a href="">户外运动、</a>
+			    		   <a href="">钟表</a>
+			    		   <i class="iconfont icon-youjiantou"></i>
+			    		</li>
+			    		<li>
+			    		   <a href="">汽车、</a>
+			    		   <a href="">汽车用品</a>
+			    		   <i class="iconfont icon-youjiantou"></i>
+			    		</li>
+			    		<li>
+			    		   <a href="">母婴、</a>
+			    		   <a href="">玩具乐器</a>
+			    		   <i class="iconfont icon-youjiantou"></i>
+			    		</li>
+			    		<li>
+			    		   <a href="">食品、</a>
+			    		   <a href="">酒类、</a>
+			    		   <a href="">生鲜、</a>
+			    		   <a href="">特产</a>
+			    		   <i class="iconfont icon-youjiantou"></i>
+			    		</li>
+			    		<li>
+			    		   <a href="">医药保健</a>
+			    		   <i class="iconfont icon-youjiantou"></i>
+			    		</li>
+			    		<li>
+			    	       <a href="">图书、</a>
+			    	       <a href="">音像、</a>
+			    	       <a href="">电子书</a>
+			    	       <i class="iconfont icon-youjiantou"></i>
+			    	    </li>
+			    		<li>
+			    		   <a href="">彩票、</a>
+			    		   <a href="">旅行</a>
+			    		   <a href="">充值</a>
+			    		   <a href="">票务</a>
+			    		   <i class="iconfont icon-youjiantou"></i>
+			    		</li>
+			    		<li>
+			    			<a href="">理财、</a>
+			    			<a href="">众筹、</a>
+			    			<a href="">白条、</a>
+			    			<a href="">保险、</a>
+			    			<i class="iconfont icon-youjiantou"></i>
+			    		</li>
+			    	</ul>
+			    </div>
+			</div>
+            <!-- 右边商品介绍 -->
+			<div class="cn-r fl clearfix">
+				<ul>
+					<li><a href="">服装城</a></li>
+					<li><a href="">美妆馆</a></li>
+					<li><a href="">传智超市</a></li>
+					<li><a href="">全球购</a></li>
+					<li class="shopping">
+					   <a href="">闪购</a>
+					   <span class="good">物美价廉</span>
+					</li>
+					<li><a href="">团购</a></li>
+					<li><a href="">拍卖</a></li>
+					<li><a href="">有趣</a></li>
+				</ul>
+			</div>
+		</div>
+	</header>
+	<!-- 头部结束 -->
+
+    <!-- 详情主页开始 -->
+    <div class="container main">
+         <!-- 面包屑 --><!-- 左边部分开始 -->
+    	<div class="floor">
+    		<a href="">手机、数码、通讯</a>
+    		<i class="iconfont icon-youjiantou"></i> 
+    		<a href="">手机</a>   
+    		<i class="iconfont icon-youjiantou"></i>
+    		<a href="">Apple苹果</a>
+    		<i class="iconfont icon-youjiantou"></i>
+    		<a href="">iphone 6S Plus系类</a>			
+    	</div>
+    	<div class="container m-info clearfix">
+    		<div class="m-info-l fl">
+    			<div class="iphone-pic">
+    				<img src="upload/6s.png">
+    			</div>
+    			<div class="spec-scroll clearfix">
+    				<span class="prev"></span>
+    				<a href="">
+    					<img src="upload/small.png">
+    				</a>
+    				<a href="">
+    					<img src="upload/small.png">
+    				</a>
+    				<a href="">
+    					<img src="upload/small.png">
+    				</a>
+    				<a href="">
+    					<img src="upload/small.png">
+    				</a>
+    				<a href="">
+    					<img src="upload/small.png">
+    				</a>
+                    <!-- <span class="prev"></span> -->
+                    <span class="next"></span>
+    			</div>
+    			<div class="share">
+                    <span>商品编号：0468256644</span>
+                    <span>分享</span>
+                    <span>关注：5000</span>
+                    <span class="compare"><input type="checkbox">对比</span>
+    			</div>
+    		</div>
+    		<!-- 左边部分结束 -->
+    		<!-- 右边部分开始 -->
+    		<div class="m-info-r fr">
+            	<h3>Apple iPhone 6s (A1700) 64G玫瑰金色 移动通信电信4G手机</h3>
+            	<p class="m-color">推荐选择下方[移动优惠购]，手机套餐齐搞定，不用换号，每月还有话费返</p>
+            	<div class="low-price">
+            	    <div class="price-info clearfix">
+            		    <span>价&nbsp; &nbsp; &nbsp;&nbsp;格</span>
+            		    <span class="notice m-color"><i>&yen;5299 </i>降价通知</span>
+            		</div>
+            		<div class="promotion">促&nbsp; &nbsp; &nbsp;&nbsp;销</div>
+            		<span class="pro-info"><em>加购价</em>满999.00另00元，或满1999.00另加30. 00元，或满2999.00另加40.00元，即可在购物车换购热销商品<a href=""> 详情 》</a>
+            		</span>
+            		<div class="assess">累计评价612168</div>
+            	</div>
+            	<!-- <div class="line"></div> -->
+            	<div class="support clearfix">
+            		<span>支&nbsp; &nbsp; &nbsp;&nbsp;持</span>
+            		<span>以旧换新，闲置手机回收  4G套餐超值枪 礼品购</span>
+            	</div>
+            	<div class="pro-color clearfix">
+            		<span class="fl">选择颜色</span>
+            		<div class="color fl">
+            			<span>金色</span>
+            		    <span>银色</span>
+            		    <span>黑色</span>
+            		    <span class="current">玫瑰金</span>
+            		</div>
+            	</div>
+            	<div class="version clearfix">
+            		<span class="fl">选择版本</span>
+                    <div class="version-r fl">
+                    	<span class="current">公开版</span>
+                    	<span>移动4G</span>
+                    </div>
+            	</div>
+            	<div class="capacity clearfix">
+            		<span class="fl">选择容量</span>
+            		<div class="capacity-r fl">
+            			<span>16GB</span>
+            			<span class="current">64GB</span>
+            			<span>128GB</span>
+            		</div>
+            	</div>
+            	<div class="buy-way clearfix">
+            		<span class="fl">购买方式</span>
+            		<div class="buy-way-r fl">
+            			<span class="current">官方标配</span>
+            			<span>移动优惠购</span>
+            			<span>电信优惠购</span>
+            		</div>
+            	</div>
+            	<div class="set clearfix">
+            		<span class="fl">套 &nbsp; &nbsp; &nbsp;&nbsp;装</span>
+            		<div class="set-r fl">
+            			<span>保护套装</span>
+            			<span>充电套装</span>
+            		</div>
+            	</div>
+            	<div class="quantity clearfix">
+            	    <div class="number fl clearfix">
+            	    	<div class="number-l fl">1</div>
+            		    <div class="number-r fr">
+            			    <div class="add">+</div>
+            			    <div class="reduce">-</div>
+            		    </div>
+            	    </div>
+            	    <div class="add-cart fl">加入购物车</div>
+            	</div>
+            </div>
+    	</div> 
+        <!-- 右边部分结束 -->
+
+       
+       <div class="details clearfix">
+       <!--  详情主页中间模块左边相关产品开始 -->
+       	    <div class="details-l fl">
+       	    	<div class="clearfix" style="solid 1px red;">
+       	    		<div class="classify fl m-color clearfix" >相关分类
+                     	<div class="classify-list" >
+                      		<ul class="clearfix" >
+	                     		<li><a href="">手机</a></li>
+	                     		<li><a href="">手机壳</a></li>
+	                     		<li><a href="">内存卡</a></li>
+	                     		<li><a href="">iphone配件</a></li>
+	                     		<li><a href="">贴膜</a></li>
+	                     		<li><a href="">手机耳机</a></li>
+	                     		<li><a href="">移动电源</a></li>
+	                     		<li><a href="">平板电脑</a></li>
+	                     		<li><a href="">笔记本</a></li>
+	                     		<li><a href="">蓝牙耳机</a></li>
+                     		</ul> 
+                     	</div>
+       	    		</div>
+       	    		<div class="intro-pro fr clearfix">推荐品牌</div>
+       	    	</div>
+       	    	<div class="more-pro" >购买了此商品的用户还买了</div>
+       	    	<div class="usb">
+       	    		<div class="usbpic">
+       	    			<img src="upload/usb.png">
+       	    		</div>
+       	    		<p>羽博 1000mah 双USB Y7移动...</p>
+       	    		<span>&yen;49</span>
+       	    		<div class="add-ca"><a href="">加入购物车</a></div>
+       	    	</div>
+       	    	<div class="usb">
+       	    		<div class="usbpic">
+       	    			<img src="upload/usb.png">
+       	    		</div>
+       	    		<p>羽博 1000mah 双USB Y7移动...</p>
+       	    		<span>&yen;49</span>
+       	    		<div class="add-ca"><a href="">加入购物车</a></div>
+       	    	</div>
+       	    	<div class="usb">
+       	    		<div class="usbpic">
+       	    			<img src="upload/usb.png">
+       	    		</div>
+       	    		<p>羽博 1000mah 双USB Y7移动...</p>
+       	    		<span>&yen;49</span>
+       	    		<div class="add-ca"><a href="">加入购物车</a></div>
+       	    	</div>
+       	    	<div class="usb">
+       	    		<div class="usbpic">
+       	    			<img src="upload/usb.png">
+       	    		</div>
+       	    		<p>羽博 1000mah 双USB Y7移动...</p>
+       	    		<span>&yen;49</span>
+       	    		<div class="add-ca"><a href="">加入购物车</a></div>
+       	    	</div>
+       	    	<div class="usb">
+       	    		<div class="usbpic">
+       	    			<img src="upload/usb.png">
+       	    		</div>
+       	    		<p>羽博 1000mah 双USB Y7移动...</p>
+       	    		<span>&yen;49</span>
+       	    		<div class="add-ca"><a href="">加入购物车</a></div>
+       	    	</div>
+       	    	<div class="usb">
+       	    		<div class="usbpic">
+       	    			<img src="upload/usb.png">
+       	    		</div>
+       	    		<p>羽博 1000mah 双USB Y7移动...</p>
+       	    		<span>&yen;49</span>
+       	    		<div class="add-ca"><a href="">加入购物车</a></div>
+       	    	</div>
+       	    </div>
+       	     <!--  详情主页中间模块左边相关产品结束 -->
+ 			<!--  详情主页中间模块右边相关产品开始 -->
+       	    <div class="details-r fr">
+       	    	<div class="choose">
+       	    		<div class="choose-title">
+       	    		    <span>选择搭配</span>
+       	    		</div>
+       	    		<div class="choose-con">
+       	    			<div class="con-list">
+       	    				<ul class="clearfix">
+       	    					<li><a href="">精品</a></li>
+       	    					<li><a href="">iphone配件</a></li>
+       	    					<li><a href="">蓝牙耳机</a></li>
+       	    					<li><a href="">自拍杆</a></li>
+       	    					<li><a href="">数据线</a></li>
+       	    					<li><a href="">其他手机配件</a></li>
+       	    					<li><a href="">U盘</a></li>
+       	    				</ul>
+       	    			</div>
+       	    			<div class="package">
+       	    			    <div class="package-list fl">
+       	    				    <ul class="clearfix">
+       	    				    	<li>
+       	    				    		<div class="list-pic1">
+       	    				    			<img src="upload/package.png">
+       	    				    		</div>
+       	    				    		<span class="money m-color">&yen;5299</span>
+       	    				    	</li>
+       	    				    	<li class="plus">+</li>
+       	    				    	<li>
+       	    				    		<div class="list-pic2">
+       	    				    			<img src="upload/vr.png">
+       	    				    		</div>
+       	    				    		<span>Feless费勒斯VR...</span>
+       	    				    		<div class="small-mon">
+       	    				    			<input type="checkbox">
+       	    				    		    <span class="m-color">&yen;39</span>
+       	    				    		</div>
+       	    				    	</li>
+       	    				    	<li>
+       	    				    		<div class="list-pic3">
+       	    				    			<img src="upload/rock.png">
+       	    				    		</div>
+       	    				    		<span>ROCK洛克VR眼镜虚...</span>
+       	    				    		<div class="small-mon">
+       	    				    			<input type="checkbox">
+       	    				    		    <span class="m-color">&yen;76</span>
+       	    				    		</div>
+       	    				    	</li>
+       	    				    	<li>
+       	    				    		<div class="list-pic4">
+       	    				    			<img src="upload/faseye.png">
+       	    				    		</div>
+       	    				    		<span>Faseyes爱易思...</span>
+       	    				    		<div class="small-mon">
+       	    				    			<input type="checkbox">
+       	    				    		    <span class="m-color">&yen;76</span>
+       	    				    		</div>
+       	    				    	</li>
+       	    				    	<li>
+       	    				    		<div class="list-pic5">
+       	    				    			<img src="upload/fase.png">
+       	    				    		</div>
+       	    				    		<span>Faseyes爱易思懒人...</span>
+       	    				    		<div class="small-mon">
+       	    				    			<input type="checkbox">
+       	    				    		    <span class="m-color">&yen;76</span>
+       	    				    		</div>
+       	    				    	</li>
+       	    				    	<li class="youjt">
+       	    				    		<i class="iconfont icon-youjiantou"></i>
+       	    				    	</li>
+       	    				    </ul>
+       	    				</div>
+       	    				<div class="total fr">
+       	    					<p>已选购0件搭配</p>
+       	    					<h5>套餐价：</h5>
+       	    					<span class="total-m m-color">&yen;5299.00</span>
+       	    					<div class="put-cart">
+       	    					    <a href="">加入购物车</a>
+       	    					</div>
+       	    				</div>
+       	    			</div>
+       	    		</div>
+       	    	</div>
+       	    	<div class="pro-introduction">
+       	    		<div class="pro-intro-title">
+       	    			<ul class="clearfix">
+       	    				<li class="current"><a href="">商品介绍</a></li>
+       	    				<li><a href="">规格与包装</a></li>
+       	    				<li><a href="">售后保障</a></li>
+       	    				<li><a href="">商品评价（5000）</a></li>
+       	    				<li><a href="">手机社区</a></li>
+       	    			</ul>
+       	    		</div>
+       	    		<div class="pro-intro-content">
+       	    			<ul>
+       	    				<li>分辨率：1920*1080(FHD)</li>
+       	    				<li>后置摄像头：1200万像素</li>
+       	    				<li>前置摄像头：500万像素</li>
+       	    				<li>核 &nbsp; &nbsp;   数：其他</li>
+       	    				<li>频 &nbsp; &nbsp;   率：以官网信息为准</li>
+       	    				<li>品牌： Apple ♥关注</li>
+       	    				<li>商品名称：APPLEiPhone 6s Plus</li>
+       	    				<li>商品编号：1861098</li>
+       	    				<li>商品毛重：0.51kg</li>
+       	    				<li>商品产地：中国大陆</li>
+       	    				<li>热点：指纹识别，Apple Pay，金属机身，拍照神器</li>
+       	    				<li>系统：苹果（IOS）</li>
+       	    				<li>像素：1000-1600万</li>
+       	    				<li>机身内存：64GB</li>
+       	    			</ul>
+       	    			<div class="more-para">
+       	    			   <a href="">查看更多参数</a>
+       	    			   <i class="iconfont icon-xiajiantou"></i>
+       	    			</div>
+       	    		</div>
+       	    		<div class="pic-details1">
+       	    			<img src="upload/i6s.png">
+       	    		</div>
+       	    		<div class="pic-details2">
+       	    			<img src="upload/intro02.png">
+       	    			<img src="upload/intro03.png">
+       	    		</div>
+       	    	</div>
+       	    </div>
+       	    <!--  详情主页中间模块右边相关产品结束 -->
+       </div>
+    </div>
+    <!-- 详情主页结束 -->
+    <!-- 猜你喜欢模块开始 -->
+    <div class="container like">
+    	<div class="like-title">猜你喜欢</div>
+    	<div class="like-content">
+    		<ul class="clearfix">
+    			<li>
+    				<img src="upload/com.png">
+    				<p>DELL戴尔Ins 15MR-75</p>
+    				<p>28SS 15英寸 银色 笔记</p>
+    				<p class="price m-color">&yen;3699</p>
+    				<p class="assess1">已有6人评价</p>
+    			</li>
+    			<li>
+    				<img src="upload/com.png">
+    				<p>DELL戴尔Ins 15MR-75</p>
+    				<p>28SS 15英寸 银色 笔记</p>
+    				<p class="price m-color">&yen;3699</p>
+    				<p class="assess1">已有6人评价</p>
+    			</li>
+    			<li>
+    				<img src="upload/com.png">
+    				<p>DELL戴尔Ins 15MR-75</p>
+    				<p>28SS 15英寸 银色 笔记</p>
+    				<p class="price m-color">&yen;3699</p>
+    				<p class="assess1">已有6人评价</p>
+    			</li>
+    			<li>
+    				<img src="upload/com.png">
+    				<p>DELL戴尔Ins 15MR-75</p>
+    				<p>28SS 15英寸 银色 笔记</p>
+    				<p class="price m-color">&yen;3699</p>
+    				<p class="assess1">已有6人评价</p>
+    			</li>
+    			<li>
+    				<img src="upload/com.png">
+    				<p>DELL戴尔Ins 15MR-75</p>
+    				<p>28SS 15英寸 银色 笔记</p>
+    				<p class="price m-color">&yen;3699</p>
+    				<p class="assess1">已有6人评价</p>
+    			</li>
+    			<li>
+    				<img src="upload/com.png">
+    				<p>DELL戴尔Ins 15MR-75</p>
+    				<p>28SS 15英寸 银色 笔记</p>
+    				<p class="price m-color">&yen;3699</p>
+    				<p class="assess1">已有6人评价</p>
+    			</li>
+    		</ul>
+    	</div>
+    </div>
+   <!--  猜你喜欢模块结束 -->
+
+    <!-- 页脚开始 -->
+	<footer class="footer">
+	<!-- 页脚头部开始 -->
+	    <div class="container foot-h">
+	    	<ul class="clearfix">
+	    		<li>
+	    			<div class="icon"></div>
+	    			<h3>急速物流</h3>
+	    			<p>急速物流，急速送达</p>
+	    		</li>
+	    		<li>
+	    			<div class="icon2"></div>
+	    			<h3>急速物流</h3>
+	    			<p>急速物流，急速送达</p>
+	    		</li>
+	    		<li>
+	    			<div class="icon3"></div>
+	    			<h3>急速物流</h3>
+	    			<p>急速物流，急速送达</p>
+	    		</li>
+	    		<li>
+	    			<div class="icon4"></div>
+	    			<h3>急速物流</h3>
+	    			<p>急速物流，急速送达</p>
+	    		</li>
+	    		<li>
+	    			<div class="icon5"></div>
+	    			<h3>急速物流</h3>
+	    			<p>急速物流，急速送达</p>
+	    		</li>
+	    	</ul>
+	    </div>
+	    <!-- 页脚头部结束 -->
+
+	    <!-- 页脚中间售后开始 -->
+	    <div class="container foot-b clearfix">
+	    	<dl>
+	    		<dt>购物指南</dt>
+	    		<dd>购物流程</dd>
+	    		<dd>会员介绍</dd>
+	    		<dd>生活旅行/团购</dd>
+	    		<dd>常见问题</dd>
+	    		<dd>大家电</dd>
+	    		<dd>联系客服</dd>
+	    	</dl>
+	    	<dl>
+	    		<dt>购物指南</dt>
+	    		<dd>购物流程</dd>
+	    		<dd>会员介绍</dd>
+	    		<dd>生活旅行/团购</dd>
+	    		<dd>常见问题</dd>
+	    		<dd>大家电</dd>
+	    		<dd>联系客服</dd>
+	    	</dl>
+	    	<dl>
+	    		<dt>购物指南</dt>
+	    		<dd>购物流程</dd>
+	    		<dd>会员介绍</dd>
+	    		<dd>生活旅行/团购</dd>
+	    		<dd>常见问题</dd>
+	    		<dd>大家电</dd>
+	    		<dd>联系客服</dd>
+	    	</dl>
+	    	<dl>
+	    		<dt>购物指南</dt>
+	    		<dd>购物流程</dd>
+	    		<dd>会员介绍</dd>
+	    		<dd>生活旅行/团购</dd>
+	    		<dd>常见问题</dd>
+	    		<dd>大家电</dd>
+	    		<dd>联系客服</dd>
+	    	</dl>
+	    	<dl>
+	    		<dt>购物指南</dt>
+	    		<dd>购物流程</dd>
+	    		<dd>会员介绍</dd>
+	    		<dd>生活旅行/团购</dd>
+	    		<dd>常见问题</dd>
+	    		<dd>大家电</dd>
+	    		<dd>联系客服</dd>
+	    	</dl>
+	    	<dl>
+	    		<dt class="help">帮助中心</dt>
+	    		<dd><img src="images/erweima.png"></dd>
+	    		<dd class="pin">品优购客户端</dd>
+	    	</dl>
+	    </div>
+	    <!-- 页脚中间售后结束 -->
+	    <!-- 页脚底部开始 -->
+	    <div class="container foot-f">
+	    	<div class="about">
+	    		<span><a href="#">关于我们</a><i>|</i></span>
+	    		<span><a href="">联系我们</a><i>|</i></span>
+	    		<span><a href="">联系客服</a><i>|</i></span>
+	    		<span><a href="">商家入驻</a><i>|</i></span>
+	    		<span><a href="">营销中心</a><i>|</i></span>
+	    		<span><a href="">手机品优购</a><i>|</i></span>
+	    		<span><a href="">销售联盟</a><i>|</i></span>
+	    		<span><a href="">品优购社区</a><i>|</i></span>
+	    		<span><a href="">品优购公益</a><i>|</i></span>
+	    		<span><a href="">English Site</a><i>|</i></span>
+	    		<span><a href="">Contact U</a></span>
+	    	</div>
+	    	<p>地址：北京市昌平区建材城西路金燕龙办公楼一层 邮编：100096 电话：400-618-4000 传真：010-82935100 邮箱: zhanghj+itcast.cn</p>
+	    	<p>京ICP备08001421号京公网安备110108007702</p>
+	    </div>
+		<!-- 页脚底部结束 -->
+	</footer>
+	<!-- 页脚结束 -->
+</body>
+</html>

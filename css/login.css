@@ -1,0 +1,138 @@
+.top {
+	border-bottom: 0;
+}
+/*.top-c .logo {
+    /*float: left;*/
+    /*width: 171px;
+    height: 62px;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    background: url(../images/logo.png) 0 0 no-repeat;
+    font-size: 0;*/
+    /*将文字隐藏起来*/
+/*}*/
+.login {
+	height: 540px;
+	border-top: 2px solid #b1191a;
+	border-bottom: 1px solid #dfdfdf;
+}
+.login .user {
+	height: 40px;
+	background-color: #ececec;
+	margin-top: 20px;
+}
+.user .new-userl {
+	font-size: 16px;
+	line-height: 40px;
+	margin-left: 5px;
+}
+.user .lo-r {
+	font-size: 14px;
+	line-height: 40px;
+	margin-right: 5px;
+}
+.user .lo-r a {
+	color: #c81623;
+}
+.log-info {
+	height: 480px;
+    margin-top: 36px;
+}
+.telnum {
+	width: 624px;
+	height: 62px;
+	margin-left: 268px;
+}
+.telnum .info-l	{
+	float: left;
+	height: 62px;
+	width: 365px;
+	text-align: right;
+	line-height: 62px;
+	font-size: 14px;
+}
+.info-l input {
+	width: 238px;
+	height: 34px;
+	border: 1px solid #ccc;
+}
+.telnum .info-r {
+    height: 62px;
+    float: left;
+    line-height: 62px;
+    margin-left: 20px;
+    color: #df3033;
+    font-size: 14px;
+    background: url(../upload/wrong.png) left center no-repeat;
+    text-indent: 25px;
+}
+.passw {
+	width: 624px;
+	height: 62px;
+	margin-left: 268px;
+}
+.passw .password {
+	float: left;
+	height: 62px;
+	width: 365px;
+	text-align: right;
+	line-height: 62px;
+	font-size: 14px;
+}
+.passw .password input {
+	width: 238px;
+	height: 34px;
+	border: 1px solid #ccc;
+}
+.passw .password-r {
+    height: 62px;
+    float: left;
+    line-height: 62px;
+    margin-left: 20px;
+    color: #df3033;
+    font-size: 14px;
+    background: url(../upload/wrong.png) left center no-repeat;
+    text-indent: 25px;
+}
+.safe {
+	height: 26px;
+	margin-top: 5px;
+	margin-left: 452px;
+}
+.safe span {
+	width: 34px;
+	height: 12px;
+	text-align: center;
+	line-height: 12px;
+	display: inline-block;
+	color: #fff;
+}
+.safe span.not {
+	background-color: #de1111;
+}
+.safe span.center {
+	background-color: #40b83f;
+}
+.safe span.good {
+	background-color: #f79100;
+}
+.agree {
+	margin-left: 400px;
+	margin-top: 40px;
+}
+.agree input {
+	vertical-align: middle;
+}
+.agree a {
+	color: #1ba1e6;
+}
+button {
+	width: 200px;
+	height: 34px;
+	background-color: #c81623;
+	color: #fff;
+	/*text-align: center;*/
+	margin-left: 400px;
+	margin-top: 50px;
+}

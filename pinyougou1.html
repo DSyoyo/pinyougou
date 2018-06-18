@@ -1,0 +1,1025 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>品优购</title>
+	<meta name="description" content="品优购-专业的综合网上购物商城,销售家电、数码通讯、电脑、家居百货、服装服饰、母婴、图书、食品等数万个品牌优质商品.便捷、诚信的服务，为您提供愉悦的网上购物体验!" />
+	<meta name="Keywords" content="网上购物,网上商城,手机,笔记本,电脑,MP3,CD,VCD,DV,相机,数码,配件,手表,存储卡,品优购" />
+	<!-- 引入ico图标 -->
+	<!-- <link rel="shortcut icon" href="favicon.ico" /> -->
+	<link rel="stylesheet" href="fonts/iconfont.css">
+	<!-- 引用浏览器初始化样式css文件 -->
+	<link rel="stylesheet" href="css/normalize.css">
+	<!-- 引用公共css样式文件 -->
+	<link rel="stylesheet" href="css/common.css">
+	<!-- 引用当前页面对应的css文件 -->
+	<link rel="stylesheet" href="css/mainpage.css">
+	<!--引入js文件-->
+	<script src="mainpage.js"></script>
+	<script src = "animate.js"></script>
+</head>
+<body  onload="imgScoll()">
+    <!-- 头部开始 -->
+	<header class="top">
+	    <!-- 头部直通车 -->
+		<div class="short-cut">
+			<div class="container clearfix">
+				<div class="short-cutl fl">
+					品优购欢迎您！
+					<a class="ml-5" href="#">请登录</a>
+					<a class="ml-5" href="#">免费注册</a>
+				</div>
+				<div class="short-cutr fr">
+					<ul>
+						<li><a href="#">我的订单</a></li>
+						<li class="line"></li>
+						<li>
+						   <a href="#">我的品优购</a>
+						   <i class="iconfont icon-xiajiantou"></i>
+						</li>
+						<li class="line"></li>
+						<li><a href="#">品优购会员</a></li>
+						<li class="line"></li>
+						<li><a href="#">企业采购</a></li>
+						<li class="line"></li>
+						<li>
+						   <a href="#">关注品优购</a>
+						   <i class="iconfont icon-xiajiantou"></i>
+						</li>
+						<li class="line"></li>
+						<li>
+						   <a href="#">客户服务</a>
+						   <i class="iconfont icon-xiajiantou"></i>
+						</li>
+						<li class="line"></li>
+						<li>
+						    <a href="#">网站导航</a>
+						    <i class="iconfont icon-xiajiantou"></i>
+						</li>
+						<li class="line"></li>
+					</ul>
+				</div>	
+			</div>
+	    </div>
+			<!-- 头部搜索 -->
+		<div class="top-c container clearfix">
+			<div class="logo">
+				<!-- 这段文字是给搜索引擎去看的 -->
+				<h1>品优购</h1>
+			</div>
+			<div class="search">
+				<input type="text" placeholder="请输入关键字">
+				<button>
+					<i class="iconfont icon-fangdajing"></i>
+				</button>
+			</div>
+			<div class="classi">
+				<a class="m-color" href="">优惠购首发</a>
+				<a href="">亿元优惠</a>
+				<a href="">9.9元团购</a>
+				<a href="">美满99减30</a>
+				<a href="">办公用品</a>
+				<a href="">电脑</a>
+				<a href="">通信</a>
+			</div>
+			<!-- 购物车 -->
+		    <div class="cart">
+			    <i class="m-color iconfont icon-gouwuchekong"></i>
+			    我的购物车
+			    <i class="iconfont icon-youjiantou"></i>
+                <div class="count">0</div>
+                <div class="cart-info">
+                	<div class="white-line"></div>
+                </div>
+		    </div>
+		</div>
+		<div class="classify-nav container clearfix">
+			<div class="cn-l fl">全部商品分类
+			    <div class="cn-list">
+			    	<ul>
+			    		<li>
+			    		   <a href="">家用电器</a>
+			    		   <i class="iconfont icon-youjiantou"></i>
+			    		</li>
+			    		<li>
+			    		   <a href="">手机、</a>
+			    		   <a href="">数码、</a>
+			    		   <a href="">通信</a>
+			    		   <i class="iconfont icon-youjiantou"></i>
+			    		</li>
+			    		<li>
+			    		   <a href="">电脑、</a>
+			    		   <a href="">办公、</a> 
+			    		   <i class="iconfont icon-youjiantou"></i>
+			    		</li>
+			    		<li>
+			    		   <a href="">家居、</a>
+			    		   <a href="">家具、</a>
+			    		   <a href="">家装、</a>
+			    		   <a href="">厨具</a>
+			    		   <i class="iconfont icon-youjiantou"></i>
+			    		</li>
+			    		<li>
+			    		   <a href="">男装、</a>
+			    		   <a href="">女装、</a>
+			    		   <a href="">童装、</a>
+			    		   <a href="">内衣</a>
+			    		   <i class="iconfont icon-youjiantou"></i>
+			    		</li>
+			    		<li>
+			    		   <a href="">个人化妆、</a>
+			    		   <a href="">清洁用品、</a>
+			    		   <a href="">宠物</a>
+			    		   <i class="iconfont icon-youjiantou"></i>
+			    		</li>
+			    		<li>
+			    		   <a href="">鞋靴、</a>
+			    		   <a href="">箱包、</a>
+			    		   <a href="">珠宝、</a>
+			    		   <a href="">奢侈品</a>
+			    		   <i class="iconfont icon-youjiantou"></i>
+			    		</li>
+			    		<li> 
+			    		   <a href="">户外运动、</a>
+			    		   <a href="">钟表</a>
+			    		   <i class="iconfont icon-youjiantou"></i>
+			    		</li>
+			    		<li>
+			    		   <a href="">汽车、</a>
+			    		   <a href="">汽车用品</a>
+			    		   <i class="iconfont icon-youjiantou"></i>
+			    		</li>
+			    		<li>
+			    		   <a href="">母婴、</a>
+			    		   <a href="">玩具乐器</a>
+			    		   <i class="iconfont icon-youjiantou"></i>
+			    		</li>
+			    		<li>
+			    		   <a href="">食品、</a>
+			    		   <a href="">酒类、</a>
+			    		   <a href="">生鲜、</a>
+			    		   <a href="">特产</a>
+			    		   <i class="iconfont icon-youjiantou"></i>
+			    		</li>
+			    		<li>
+			    		   <a href="">医药保健</a>
+			    		   <i class="iconfont icon-youjiantou"></i>
+			    		</li>
+			    		<li>
+			    	       <a href="">图书、</a>
+			    	       <a href="">音像、</a>
+			    	       <a href="">电子书</a>
+			    	       <i class="iconfont icon-youjiantou"></i>
+			    	    </li>
+			    		<li>
+			    		   <a href="">彩票、</a>
+			    		   <a href="">旅行</a>
+			    		   <a href="">充值</a>
+			    		   <a href="">票务</a>
+			    		   <i class="iconfont icon-youjiantou"></i>
+			    		</li>
+			    		<li>
+			    			<a href="">理财、</a>
+			    			<a href="">众筹、</a>
+			    			<a href="">白条、</a>
+			    			<a href="">保险、</a>
+			    			<i class="iconfont icon-youjiantou"></i>
+			    		</li>
+			    	</ul>
+			    </div>
+			</div>
+            <!-- 右边商品介绍 -->
+			<div class="cn-r fl clearfix">
+				<ul>
+					<li><a href="">服装城</a></li>
+					<li><a href="">美妆馆</a></li>
+					<li><a href="">传智超市</a></li>
+					<li><a href="">全球购</a></li>
+					<li class="shopping">
+					   <a href="">闪购</a>
+					   <span class="good">物美价廉</span>
+					</li>
+					<li><a href="">团购</a></li>
+					<li><a href="">拍卖</a></li>
+					<li><a href="">有趣</a></li>
+				</ul>
+			</div>
+		</div>
+	</header>
+	<!-- 头部结束 -->
+	<!-- 主题栏开始 -->
+	<section class="container banner clearfix">
+	    <div class="carousel fl">
+	    	<ul>
+	    		<li><a href="#"><img src="upload/pic.png" alt=""></a></li>
+	    		<li><a href="#"><img src="upload/2.jpg" alt=""></a></li>
+	    		<li><a href="#"><img src="upload/3.jpg" alt=""></a></li>
+	    		<li><a href="#"><img src="upload/pic.png" alt=""></a></li>
+	    		<li><a href="#"><img src="upload/2.jpg" alt=""></a></li>
+	    		<li><a href="#"><img src="upload/3.jpg" alt=""></a></li>
+	    	</ul>
+				<!--//左右箭头-->
+				<div class="arrow">
+					<a href="#" class="leftArr">&lt;</a>
+					<a href="#" class="rightArr">&gt;</a>
+			  </div>
+	    	   <!-- 六个小圆点开始 -->
+				<ol>
+				</ol>
+	    	   <!-- 六个小圆点结束 -->
+	    </div>
+
+	    <!-- 右边品优购快报模块开始 -->
+	    <div class="banner-r fr">
+	    <!-- 头部 -->
+	    	<div class="news-h">
+	    	    <div class="news-top clearfix">
+	    		    <h3 class="fl">品优购快报</h3>
+	    		    <a href="#" class="more fr">更多&gt;</a>
+	    		</div>
+	    		<div class="news-info">
+	    			<ol>
+	    				<li><a href=""><strong>[特惠]</strong>北站开学季 全民半价购数码北站开学季 全民半价购数码</a></li>
+	    				<li><a href=""><strong>[特惠]</strong>品优稳占家电网购六成份额</a></li>
+	    				<li><a href=""><strong>[特惠]</strong>百元中秋全品类礼券限量领</a></li>
+	    				<li><a href=""><strong>[特惠]</strong>上品优生鲜 享阳澄湖大闸蟹</a></li>
+	    				<li><a href=""><strong>[特惠]</strong>每日享折扣品优品质游</a></li>
+	    			</ol>
+	    		</div>
+	    	</div>
+	    	<!-- 表格部分 -->
+	    	<div class="news-b">
+	    		<table cellspacing="0">
+	    			<tr>
+	    				<td>
+	    					<a href="">
+	    					    <div class="icons"></div>
+	    					    <p>话费</p>
+	    					</a>
+	    				</td>
+	    				<td>
+	    					<a href="">
+	    					    <div class="icons"></div>
+	    					    <p>话费</p>
+	    					</a>
+	    				</td>
+	    				<td>
+	    					<a href="">
+	    					    <div class="icons"></div>
+	    					    <p>话费</p>
+	    					</a>
+	    				</td>
+	    				<td>
+	    					<a href="">
+	    					    <div class="icons"></div>
+	    					    <p>话费</p>
+	    					</a>
+	    				</td>
+	    			</tr>
+	    			<tr>
+	    				<td>
+	    					<a href="">
+	    					    <div class="icons"></div>
+	    					    <p>话费</p>
+	    					</a>
+	    				</td>
+	    				<td>
+	    					<a href="">
+	    					    <div class="icons"></div>
+	    					    <p>话费</p>
+	    					</a>
+	    				</td>
+	    				<td>
+	    					<a href="">
+	    					    <div class="icons"></div>
+	    					    <p>话费</p>
+	    					</a>
+	    				</td>
+	    				<td>
+	    					<a href="">
+	    					    <div class="icons"></div>
+	    					    <p>话费</p>
+	    					</a>
+	    				</td>
+	    			</tr>
+	    			<tr>
+	    				<td>
+	    					<a href="">
+	    					    <div class="icons"></div>
+	    					    <p>话费</p>
+	    					</a>
+	    				</td>
+	    				<td>
+	    					<a href="">
+	    					    <div class="icons"></div>
+	    					    <p>话费</p>
+	    					</a>
+	    				</td>
+	    				<td>
+	    					<a href="">
+	    					    <div class="icons"></div>
+	    					    <p>话费</p>
+	    					</a>
+	    				</td>
+	    				<td>
+	    					<a href="">
+	    					    <div class="icons"></div>
+	    					    <p>话费</p>
+	    					</a>
+	    				</td>
+	    			</tr>
+	    		</table>
+	    	</div>
+	    	<!-- 底部图片 -->
+	    	<div class="news-f">
+	    		<img src="upload/pict_03.png">
+	    	</div>
+	    </div>
+	</section>
+	<!-- 主题栏结束 -->
+	<!-- 今日推荐模块开始 -->
+	<div class="recommend container clearfix">
+		<div class="recommend-l fl">
+			<div class="clock"></div>
+			<h3>今日推荐</h3>
+		</div>
+		<div class="recommend-r fr">
+			<ul class="clearfix">
+				<li>
+					<img src="upload/shirt.png">
+				</li>
+				<li class="line"></li>
+				<li>
+					<img src="upload/shirt.png">
+				</li>
+				<li class="line"></li>
+				<li>
+					<img src="upload/shirt.png">
+				</li>
+				<li class="line"></li>
+				<li>
+					<img src="upload/shirt.png">
+				</li>
+			</ul>
+		</div>
+	</div>
+	<!-- 今日推荐模块结束 -->
+
+	<!-- 猜你喜欢模块开始 -->
+	<div class="container favourite">
+		<div class="favourite-h clearfix">
+			<div class="love-l fl">猜你喜欢</div>
+			<div class="love-r fr">换一批
+			   <img src="upload/change.png">
+			</div>
+		</div>
+		<div class="favourite-b">
+			<ul>
+				<li>
+				   <a href=""><img src="upload/bag.png"></a>
+				   <div class="info-1">
+				   	    <p><a href="">阳光美包新款单肩包女包时尚子母包四件套女</a></p>
+				        <p><a class="price" href="">¥116.00</a></p>
+				   </div>
+				</li>
+				<li>
+				   <a href=""><img src="upload/bag.png"></a>
+				   <div class="info-1">
+				   	    <p><a href="">阳光美包新款单肩包女包时尚子母包四件套女</a></p>
+				        <p><a class="price" href="">¥116.00</a></p>
+				   </div>
+				</li>
+				<li>
+				   <a href=""><img src="upload/bag.png"></a>
+				   <div class="info-1">
+				   	    <p><a href="">阳光美包新款单肩包女包时尚子母包四件套女</a></p>
+				        <p><a class="price" href="">¥116.00</a></p>
+				   </div>
+				</li>
+				<li>
+				   <a href=""><img src="upload/bag.png"></a>
+				   <div class="info-1">
+				   	    <p><a href="">阳光美包新款单肩包女包时尚子母包四件套女</a></p>
+				        <p><a class="price" href="">¥116.00</a></p>
+				   </div>
+				</li>
+				<li>
+				   <a href=""><img src="upload/bag.png"></a>
+				   <div class="info-1">
+				   	    <p><a href="">阳光美包新款单肩包女包时尚子母包四件套女</a></p>
+				        <p><a class="price" href="">¥116.00</a></p>
+				   </div>
+				</li>
+				<li>
+				   <a href=""><img src="upload/bag.png"></a>
+				   <div class="info-1">
+				   	    <p><a href="">阳光美包新款单肩包女包时尚子母包四件套女</a></p>
+				        <p><a class="price" href="">¥116.00</a></p>
+				   </div>
+				</li>
+			</ul>
+		</div>
+	</div>
+	  <!-- 猜你喜欢模块结束 -->
+
+	   <!-- 传智播客有趣区开始 -->
+    <div class="container amusing">
+    	<div class="amusing-t">
+    		<div class="amusing-title">传智播客 · 有趣区</div>
+    	</div>
+    	<!-- 模块开始 -->
+    	<div class="amusing-secs clearfix">
+    	    <div class="first fl">
+    	        <div class="fir-title1">
+    	    	    <p><a href="">传智播客好书榜</a></p>
+    	    	    <p><a href="">畅销推荐低至一折</a></p>
+    	    	</div>
+    	    	<img src="upload/books.png">
+    	    </div>
+    	    <div class="second fl">
+    	    	<div class="sec-title2">好东西</div>
+    	    	<div class="sec-keyboard">
+    	    		<h3>达人推荐</h3>
+    	    		<div class="content1"><a href="">雷神金属机械键盘</a></div>
+    	    		<div class="content1"><a class="m-color" href="">与你相见恨晚</a></div>
+    	    		<img src="upload/keyboard.png">
+    	    	</div>
+    	    	<div class="sec-clo">
+    	    		<h3>发现好物</h3>
+    	    		<div class="content2"><a href="">一不小心霸气外露</a></div>
+    	    		<div class="content2"><a class="m-color" href="">等你来</a></div>
+    	    		<img src="upload/clothes.png">
+    	    	</div>
+    	    </div>
+    	    <div class="third fl">
+    	    	<div class="thi-title3">品牌街</div>
+    	    	<div class="supor">
+    	    		<h3>苏泊尔</h3>
+    	    		<div class="content3"><a href="">返场大卖场</a></div>
+    	    		<div class="content3"><a class="m-color" href="">爆品直降100元</a></div>
+    	    		<img src="upload/supor.png">
+    	    	</div>
+    	    	<div class="box1 clearfix">
+    	    		<div class="box1-l fl">
+    	    			<h3>国际大牌</h3>
+    	    			<div class="content4"><a href="">adidas</a></div>
+    	    			<div class="content4"><a class="m-color" href="">部分3免1</a></div>
+    	    			<img src="upload/shoes.png">
+    	    		</div>
+    	    		<div class="box1-r fr">
+    	    			<h3>本周特卖</h3>
+    	    			<div class="content5"><a href="">打牌折扣</a></div>
+    	    			<div class="content5"><a class="m-color" href="">每周上新</a></div>
+    	    			<img src="upload/discount.png">
+    	    		</div>
+    	    	</div>
+    	    </div>
+    	    <div class="fourth fl">
+    	    		<table class="brand" cellspacing="0" cellpadding="4px">
+    	    			<tr>
+    	    				<td class="no-bd no-top">
+    	    					<img src="upload/oppo.png">
+    	    				</td>
+    	    				<td class="no-top">
+    	    					<img src="upload/oppo.png">
+    	    				</td>
+    	    			</tr>
+    	    			<tr>
+    	    				<td class="no-bd">
+    	    					<img src="upload/samsang.png">
+    	    				</td>
+    	    				<td>
+    	    					<img src="upload/samsang.png">
+    	    				</td>
+    	    			</tr>
+    	    			<tr>
+    	    				<td class="no-bd">
+    	    					<img src="upload/oppo.png">
+    	    				</td>
+    	    				<td>
+    	    					<img src="upload/oppo.png">
+    	    				</td>
+    	    			</tr>
+    	    			<tr>
+    	    				<td class="no-bd">
+    	    					<img src="upload/samsang.png">
+    	    				</td>
+    	    				<td>
+    	    					<img src="upload/samsang.png">
+    	    				</td>
+    	    			</tr>
+    	    			<tr>
+    	    				<td class="no-bd">
+    	    					<img src="upload/mi.png">
+    	    				</td>
+    	    				<td><img src="upload/mi.png"></td>
+    	    			</tr>
+    	    			<tr>
+    	    				<td class="no-bd">
+    	    					<img src="upload/samsang.png">
+    	    				</td>
+    	    				<td>
+    	    					<img src="upload/samsang.png">
+    	    				</td>
+    	    			</tr>
+    	    			<tr>
+    	    				<td class="no-bd no-bot">
+    	    					<img src="upload/mi.png">
+    	    				</td>
+    	    				<td class="no-bot">
+    	    					<img src="upload/mi.png">
+    	    				</td>
+    	    			</tr>
+    	    		</table>
+    	    	</div>
+    	    </div>
+    	</div>
+    </div>
+
+	<!-- 传智播客有趣区结束 -->
+	<!-- 家用电器模块开始 -->
+	<div class="container house-eq">
+		<div class="title-se clearfix">
+			<div class="title-se-l fl">家用电器</div>
+			<div class="title-se-r fr">
+				<ul class="clearfix">
+					<li><a class="m-color" href="">热门</a></li>
+					<li class="line"></li>
+					<li><a href="">大家电</a></li>
+					<li class="line"></li>
+					<li><a href="">生活电器</a></li>
+					<li class="line"></li>
+					<li><a href="">厨房电器</a></li>
+					<li class="line"></li>
+					<li><a href="">个护健康</a></li>
+					<li class="line"></li>
+					<li><a href="">应季电器</a></li>
+					<li class="line"></li>
+					<li><a href="">空气/净水</a></li>
+					<li class="line"></li>
+					<li><a href="">新奇特</a></li>
+					<li class="line"></li>
+					<li><a href="">高端电器</a></li>
+					<li class="line"></li>
+				</ul>
+			</div>
+		</div>
+		<div class="sec-classify clearfix">
+			<div class="sec1 fl">
+				<ul class="clearfix">
+					<li><a href="">节能补贴</a></li>
+					<li><a href="">4k电视</a></li>
+					<li><a href="">空气净化器</a></li>
+					<li><a href="">IH电饭煲</a></li>
+					<li><a href="">滚筒洗衣机</a></li>
+					<li><a href="">电热水器</a></li>
+				</ul>
+				<div class="tv">
+					<div class="tv-info">
+					    <h3 class="m-color">三星曲面电视</h3>
+					    <div class="tv-info1 m-color">抽奖送豪礼</div>
+					</div>
+					<div class="tv-pic">
+                        <img src="upload/tv.png">
+                    </div>
+				</div>
+			</div>
+			<div class="sec2 fl">
+				<div class="elec-kettle1">烧水壶智能光控泡茶壶茶具套装</div>
+                <div class="elec-kettle2">满299.00减40.00</div>
+                <div class="kettle-pic">
+                	<img src="upload/kettle.png">
+                </div>
+                <div class="points">
+                	<ul>
+                		<li class="current"></li>
+                		<li></li>
+                		<li></li>
+                	</ul>
+                </div>
+			</div>
+			<div class="sec3 fl">
+				<div class="oven">
+					<div class="oven-info1">每满200元减20元</div>
+					<div class="oven-info2 m-color">烘培节1元抢购</div>
+					<img src="upload/oven.png">
+				</div>
+				<div class="letv">
+					<div class="letv-info1">买乐视电视享钜惠</div>
+					<div class="letv-info2 m-color">送60个月会员</div>
+					<img src="upload/letv.png">
+				</div>
+			</div>
+			<div class="sec4 fl">
+				<div class="tvco">
+					<div class="tvco-info1">8.20彩电宅购节</div>
+					<div class="tvco-info2">65寸4K智能电视3799</div>
+				</div>
+				<div class="tvco-pic">
+					<img src="upload/tvcolor.png">
+				</div>
+			</div>
+			<div class="sec5 fl">
+				<div class="conditioner">
+					<div class="conditioner-info1">消暑神器全场领券</div>
+					<div class="conditioner-info2 m-color">1元赢空调</div>
+					<img src="upload/conditioner.png">
+				</div>
+				<div class="fan">
+					<div class="fan-info1">买乐视电视享钜惠</div>
+					<div class="fan-info2 m-color">送60个月会员</div>
+					<img src="upload/fan1.png">
+				</div>
+			</div>
+		</div>
+		<div class="brand-name">
+			<img src="upload/brand.png">
+		</div>
+	</div>
+	<!-- 家用电器模块结束 -->
+
+	<!-- 手机通讯开始-->
+	<div class="container mobile">
+		<div class="title-se clearfix">
+			<div class="title-se-l fl">家用电器</div>
+			<div class="title-se-r fr">
+				<ul class="clearfix">
+					<li><a class="m-color" href="">热门</a></li>
+					<li class="line"></li>
+					<li><a href="">品质优选 </a></li>
+					<li class="line"></li>
+					<li><a href="">新机尝鲜</a></li>
+					<li class="line"></li>
+					<li><a href="">高性价比</a></li>
+					<li class="line"></li>
+					<li><a href="">口碑推荐</a></li>
+					<li class="line"></li>
+					<li><a href="">合约机</a></li>
+					<li class="line"></li>
+					<li><a href="">手机卡 </a></li>
+					<li class="line"></li>
+					<li><a href="">店铺精选</a></li>
+					<li class="line"></li>
+					<li><a href="">手机配件</a></li>
+					<li class="line"></li>
+				</ul>
+			</div>
+		</div>
+		<div class="sec-classify">
+			<div class="sec1 fl">
+				<ul class="clearfix">
+					<li><a href="">手机通讯</a></li>
+					<li><a href="">依旧换新</a></li>
+					<li><a href="">双卡双待</a></li>
+					<li><a href="">自营配件</a></li>
+					<li><a href="">金属机身</a></li>
+					<li><a href="">高清屏</a></li>
+				</ul>
+				<div class="mobile1">
+					<div class="mobile1-info">
+					    <h3 class="m-color">中兴A1 低至499元</h3>
+					    <div class="mobile1-info1 m-color">国民指纹，超6万好评</div>
+					</div>
+					<div class="mobile1-pic">
+                        <img src="upload/zhong.png">
+                    </div>
+				</div>
+			</div>
+			<div class="sec2 fl">
+				<div class="mobile-1">360 N4S限量版</div>
+                <div class="mobile-2">1199元抢购</div>
+                <div class="mobile2-pic">
+                	<img src="upload/N4S.png">
+                </div>
+                <div class="points">
+                	<ul>
+                		<li class="current"></li>
+                		<li></li>
+                		<li></li>
+                	</ul>
+                </div>
+			</div>
+			<div class="sec3 fl">
+				<div class="moto">
+					<div class="moto-info1">Moto X极</div>
+					<div class="moto-info2 m-color">低至¥2999</div>
+					<img src="upload/moto.png">
+				</div>
+				<div class="max">
+					<div class="max-info1">乐max2 限量秒杀</div>
+					<div class="max-info2 m-color">每日1899秒</div>
+					<img src="upload/max2.png">
+				</div>
+			</div>
+			<div class="sec4 fl">
+				<div class="huawei">
+					<div class="huawei-info1">G9青春版玫瑰金首发</div>
+					<div class="huawei-info2">赢0元试用</div>
+				</div>
+				<div class="huawei-pic">
+					<img src="upload/huawei.png">
+				</div>
+			</div>
+			<div class="sec5 fl">
+				<div class="huawei-ei">
+					<div class="huawei-ei-info1">荣耀V8 2K屏</div>
+					<div class="huawei-ei-info2 m-color">¥2799元</div>
+					<img src="upload/huawei8.png">
+				</div>
+				<div class="vivo">
+					<div class="vivo-info1">vivo x7星空灰</div>
+					<div class="vivo-info2 m-color">1元赢新机</div>
+					<img src="upload/vivo.png">
+				</div>
+			</div>
+		</div>
+		<div class="brand-name">
+			<img src="upload/yidong.png">
+		</div>
+	</div>
+	<!-- 手机通讯结束 -->
+	<!-- 电脑办公开始 -->
+	<div class="container computer">
+		<div class="title-se clearfix">
+			<div class="title-se-l fl">电脑办公</div>
+			<div class="title-se-r fr">
+				<ul class="clearfix">
+					<li><a class="m-color" href="">热门</a></li>
+					<li class="line"></li>
+					<li><a href="">电脑/平板</a></li>
+					<li class="line"></li>
+					<li><a href="">潮流影音</a></li>
+					<li class="line"></li>
+					<li><a href="">智能/外设</a></li>
+					<li class="line"></li>
+					<li><a href="">DIY硬件</a></li>
+					<li class="line"></li>
+					<li><a href="">电竞游戏</a></li>
+					<li class="line"></li>
+					<li><a href="">办公/网络</a></li>
+					<li class="line"></li>
+					<li><a href="">文具电教</a></li>
+					<li class="line"></li>
+					<li><a href="">精选配件</a></li>
+					<li class="line"></li>
+				</ul>
+			</div>
+		</div>
+		<div class="sec-classify">
+		<!-- 第一个模块 -->
+			<div class="sec1 fl">
+				<ul class="clearfix">
+					<li><a href="">SSD硬盘</a></li>
+					<li><a href="">显示器</a></li>
+					<li><a href="">机械键盘</a></li>
+					<li><a href="">台式机</a></li>
+					<li><a href="">组装电脑</a></li>
+					<li><a href="">配件专区</a></li>
+				</ul>
+				<div class="computer1">
+					<div class="computer1-info">
+					    <h3 class="m-color">电脑特惠直降3000</h3>
+					    <div class="computer1-info1 m-color">游戏本6期免息</div>
+					</div>
+					<div class="computer1-pic">
+                        <img src="upload/computer1.png">
+                    </div>
+				</div>
+			</div>
+			<!-- 第二个模块 -->
+			<div class="sec2 fl">
+				<div class="camera-1">大牌相机低价抢</div>
+                <div class="camera-2">运动相机低至¥299</div>
+                <div class="camera2-pic">
+                	<img src="upload/camera.png">
+                </div>
+                <div class="points">
+                	<ul>
+                		<li class="current"></li>
+                		<li></li>
+                		<li></li>
+                	</ul>
+                </div>
+			</div>
+			<!-- 第三个模块 -->
+			<div class="sec3 fl">
+				<div class="computer3">
+					<div class="computer3-info1">平板新世界</div>
+					<div class="computer3-info2 m-color">开启2IN1时代</div>
+					<img src="upload/computer3.png">
+				</div>
+				<div class="keyboard1">
+					<div class="keyboard1-info1">低价来袭</div>
+					<div class="keyboard1-info2 m-color">机械键盘低至99元</div>
+					<img src="upload/keyboard1.png">
+				</div>
+			</div>
+			<!-- 第四个模块 -->
+			<div class="sec4 fl">
+				<div class="motor">
+					<div class="motor-info1">全场6期分期免息</div>
+					<div class="motor-info2">我和DIY有个约会</div>
+				</div>
+				<div class="motor-pic">
+					<img src="upload/motor.png">
+				</div>
+			</div>
+			<div class="sec5 fl">
+				<div class="conditioner">
+					<div class="conditioner-info1">消暑神器全场领券</div>
+					<div class="conditioner-info2 m-color">1元赢空调</div>
+					<img src="upload/conditioner.png">
+				</div>
+				<div class="watch">
+					<div class="watch-info1">潮流手配 尖叫来袭</div>
+					<div class="watch-info2 m-color">满99元减30元</div>
+					<img src="upload/watch.png">
+				</div>
+			</div>
+		</div>
+		<div class="brand-name">
+			<img src="upload/com-brand.png">
+		</div>
+	</div>
+	<!-- 电脑办公结束 -->
+	<!-- 热门疯抢模块开始 -->
+	<div class="container popular">
+		<div class="popular-t">
+    		<div class="popular-title">热门疯抢</div>
+    	</div>
+    	<div class="popular-secs clearfix">
+    		<div class="secs-1 fl">
+    			<img src="upload/glass.png">
+    			<div class="glass-info1">暴风魔镜小D虚拟现实只能VR眼睛3</div>
+    			<div class="glass-info2 m-color">¥79.00</div>
+    		</div>
+    		<div class="secs-2 fl">
+    			<ul class="clearfix">
+    				<li class="clearfix">
+    					<img src="upload/battery.png">
+    					<div class="battery fr">
+    					    <div class="battery-info1">羽博7800毫安Z3移动电源/充电</div>
+    					    <div class="battery-price m-color">¥139.00</div>
+    					</div>
+    				</li>
+    				<li class="clearfix">
+    					<img src="upload/transvin.png">
+    					<div class="transvin1 fr">
+    					    <div class="transvin-info">全微(transwin) A-920 2.0声道</div>
+    					    <div class="transvin-price m-color">¥29.00</div>
+    					</div>
+    				</li>
+    				<li class="clearfix">
+    					<img src="upload/skirt.png">
+    					<div class="skirt fr">
+    					    <div class="skirt-info">2016夏季新款短袖镂空大V领蕾丝</div>
+    					    <div class="skirt-price m-color">¥129.00</div>
+    					</div>
+    				</li>
+    				<li class="clearfix">
+    					<img src="upload/skirt.png">
+    					<div class="skirt fr">
+    					    <div class="skirt-info">2016夏季新款短袖镂空大V领蕾丝</div>
+    					    <div class="skirt-price m-color">¥129.00</div>
+    					</div>
+    				</li>
+    				<li class="clearfix">
+    					<img src="upload/skirt.png">
+    					<div class="skirt fr">
+    					    <div class="skirt-info">2016夏季新款短袖镂空大V领蕾丝</div>
+    					    <div class="skirt-price m-color">¥129.00</div>
+    					</div>
+    				</li>
+    				<li class="clearfix">
+    					<img src="upload/colskirt.png">
+    					<div class="colskirt fr">
+    					    <div class="skirt-info">璞衣2016秋冬新款复古棉麻印花</div>
+    					    <div class="skirt-price m-color">¥129.00</div>
+    					</div>
+    				</li>
+    			</ul>
+    		</div>
+    		<div class="secs-3 fl">
+    			<div class="computer4 clearfix">
+    				<img src="upload/computer4.png">
+    				<img class="right-i" src="upload/right-i.png">
+    			</div>
+    			<div class="camera4">
+    				<img src="upload/camera4.png">
+    				<img class="right-in" src="upload/right-in.png">
+    			</div>
+    		</div>
+    	</div>
+	</div>
+	<!-- 热门疯抢模块结束 -->
+	<!-- 页脚开始 -->
+	<footer class="footer">
+	<!-- 页脚头部开始 -->
+	    <div class="container foot-h">
+	    	<ul class="clearfix">
+	    		<li>
+	    			<div class="icon"></div>
+	    			<h3>急速物流</h3>
+	    			<p>急速物流，急速送达</p>
+	    		</li>
+	    		<li>
+	    			<div class="icon2"></div>
+	    			<h3>急速物流</h3>
+	    			<p>急速物流，急速送达</p>
+	    		</li>
+	    		<li>
+	    			<div class="icon3"></div>
+	    			<h3>急速物流</h3>
+	    			<p>急速物流，急速送达</p>
+	    		</li>
+	    		<li>
+	    			<div class="icon4"></div>
+	    			<h3>急速物流</h3>
+	    			<p>急速物流，急速送达</p>
+	    		</li>
+	    		<li>
+	    			<div class="icon5"></div>
+	    			<h3>急速物流</h3>
+	    			<p>急速物流，急速送达</p>
+	    		</li>
+	    	</ul>
+	    </div>
+	    <!-- 页脚头部结束 -->
+	    <!-- 页脚中间售后开始 -->
+	    <div class="container foot-b clearfix">
+	    	<dl>
+	    		<dt>购物指南</dt>
+	    		<dd>购物流程</dd>
+	    		<dd>会员介绍</dd>
+	    		<dd>生活旅行/团购</dd>
+	    		<dd>常见问题</dd>
+	    		<dd>大家电</dd>
+	    		<dd>联系客服</dd>
+	    	</dl>
+	    	<dl>
+	    		<dt>购物指南</dt>
+	    		<dd>购物流程</dd>
+	    		<dd>会员介绍</dd>
+	    		<dd>生活旅行/团购</dd>
+	    		<dd>常见问题</dd>
+	    		<dd>大家电</dd>
+	    		<dd>联系客服</dd>
+	    	</dl>
+	    	<dl>
+	    		<dt>购物指南</dt>
+	    		<dd>购物流程</dd>
+	    		<dd>会员介绍</dd>
+	    		<dd>生活旅行/团购</dd>
+	    		<dd>常见问题</dd>
+	    		<dd>大家电</dd>
+	    		<dd>联系客服</dd>
+	    	</dl>
+	    	<dl>
+	    		<dt>购物指南</dt>
+	    		<dd>购物流程</dd>
+	    		<dd>会员介绍</dd>
+	    		<dd>生活旅行/团购</dd>
+	    		<dd>常见问题</dd>
+	    		<dd>大家电</dd>
+	    		<dd>联系客服</dd>
+	    	</dl>
+	    	<dl>
+	    		<dt>购物指南</dt>
+	    		<dd>购物流程</dd>
+	    		<dd>会员介绍</dd>
+	    		<dd>生活旅行/团购</dd>
+	    		<dd>常见问题</dd>
+	    		<dd>大家电</dd>
+	    		<dd>联系客服</dd>
+	    	</dl>
+	    	<dl>
+	    		<dt class="help">帮助中心</dt>
+	    		<dd><img src="images/erweima.png"></dd>
+	    		<dd class="pin">品优购客户端</dd>
+	    	</dl>
+	    </div>
+	    <!-- 页脚中间售后结束 -->
+	    <!-- 页脚底部开始 -->
+	    <div class="container foot-f">
+	    	<div class="about">
+	    		<span><a href="#">关于我们</a><i>|</i></span>
+	    		<span><a href="">联系我们</a><i>|</i></span>
+	    		<span><a href="">联系客服</a><i>|</i></span>
+	    		<span><a href="">商家入驻</a><i>|</i></span>
+	    		<span><a href="">营销中心</a><i>|</i></span>
+	    		<span><a href="">手机品优购</a><i>|</i></span>
+	    		<span><a href="">销售联盟</a><i>|</i></span>
+	    		<span><a href="">品优购社区</a><i>|</i></span>
+	    		<span><a href="">品优购公益</a><i>|</i></span>
+	    		<span><a href="">English Site</a><i>|</i></span>
+	    		<span><a href="">Contact U</a></span>
+	    	</div>
+	    	<p>地址：北京市昌平区建材城西路金燕龙办公楼一层 邮编：100096 电话：400-618-4000 传真：010-82935100 邮箱: zhanghj+itcast.cn</p>
+	    	<p>京ICP备08001421号京公网安备110108007702</p>
+	    </div>
+		<!-- 页脚底部结束 -->
+	</footer>
+	<!-- 页脚结束 -->
+	<script src = "mainpage.js"></script>
+</body>
+</html>

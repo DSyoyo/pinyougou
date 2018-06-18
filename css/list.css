@@ -1,0 +1,171 @@
+.top-c .sec-kill {
+	width: 71px;
+	height: 32px;
+	position: absolute;
+	margin-top: 34px;
+	margin-left: 184px;
+}
+.intro {
+	height: 45px;
+}
+.description {
+	height: 45px;
+}
+.description-l {
+	height: 45px;
+	width: 360px;
+	float: left;
+}
+.description-l li {
+	float: left;
+	padding: 0 28px;
+	line-height: 45px;
+	font-size: 16px;
+}
+.description-r {
+	float: left;
+	margin-left: 10px;
+}
+.description-r li {
+	float: left;
+	padding: 0 20px;
+	line-height: 45px;
+	font-size: 14px;
+}
+.nav-h { 
+	height: 120px;
+	background: url(../upload/nav-bg.png) 0 0 no-repeat;
+}
+.nav-h .list-title {
+	padding-top: 10px;
+	text-align: center;
+}
+.nav-h .list-title .iconfont {
+	font-size: 30px;
+}
+.nav-h .list-title span {
+	font-size: 20px;
+	font-weight: bold;
+}
+.nav-h .line {
+	height: 1px;
+	width: 208px;
+	background-color: #000;
+	margin: 0 auto;
+	text-align: center;
+	margin-top: 20px;
+}
+.nav-h .line .rush {
+	position: relative;
+	font-size: 16px;
+	top: -12px;
+	background-color: #fff;
+    padding: 0 5px;
+}
+.sect-des {
+	height: 1870px;
+
+}
+.sect-des li {
+	float: left;
+	width: 289px;
+	height: 458px;
+	margin-right: 12px;
+	margin-bottom: 10px;
+	border: 1px solid #fff;
+}
+.sect-des li:nth-child(4n) {
+	margin-right: 0;
+}
+.sect-des li .phone-pic {
+    text-align: center;
+}
+.sect-des li .introduction {
+	margin: 0 12px;
+}
+.sect-des li .phone-info,
+.sect-des li del{
+	font-size: 14px;
+}
+.sect-des li .introduction .price {
+	font-size: 22px;
+	margin-right: 5px;
+}
+.sect-des li .sell {
+	margin: 12px 12px 13px 12px;
+}
+.sect-des li .progress {
+	width: 130px;
+	height: 12px;
+	border: 1px solid #ed282e;
+	display: inline-block;
+	border-radius: 12px;
+    margin: 0 5px;
+}
+.sect-des li .progress .progress-info {
+	width: 118px;
+	height: 12px;
+	background-color: #ed282e;
+	border-radius: 12px 0 0 12px;
+}
+.sect-des li .buy {
+	height: 50px;
+	background-color: #ed282e;
+	text-align: center;
+	line-height: 50px;
+	margin-top: 5px;
+	font-size: 16px;
+	color: white;
+}
+.sect-des li:hover {
+	border-color: #ed282e;
+}
+/*翻页模块开始*/
+.page {
+	height: 54px;
+}
+.number {
+	/*width: 580px;*/
+	height: 46px;
+	padding-left: 336px;
+	margin-top: 20px;
+}
+.number li {
+	display: inline-block;
+}
+.number li.previous,
+.number li.next {
+	width: 86px;
+	height: 32px;
+	border: 1px solid #ccc;
+	text-align: center;
+	line-height: 32px;
+}
+.number li.no {
+	width: 38px;
+	height: 32px;
+	border: 1px solid #ccc;
+	text-align: center;
+	line-height: 32px;
+}
+.number li span {
+	margin: 0 20px 0 10px;
+}
+.number li .which {
+	width: 40px;
+	height: 32px;
+	border: 1px solid #ccc;
+	display: inline-block;
+	line-height: 32px;
+	text-align: center;
+	vertical-align: middle;
+}
+.number li button {
+	width: 42px;
+	height: 32px;
+	background-color: #fff;
+	border: 1px solid #ccc;
+	vertical-align: middle;
+	margin-left: 20px;
+}
+/*翻页模块结束*/

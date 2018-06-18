@@ -1,0 +1,624 @@
+.cn-l .cn-list {
+	display: none;
+}
+.allgoods {
+	min-height: 500px;
+}
+.allgoods h4 {
+	height: 38px;
+ 	font-size: 16px;
+ 	padding-top: 10px;
+}
+.goods-info {
+	height: 34px;
+	border: 1px solid #ededed;
+	background-color: #f7f7f7;
+	line-height: 34px;
+}
+.goods-info .select {
+	margin-left: 5px;
+}
+.goods-info .select input{
+	vertical-align: middle;
+}
+.goods-info .goods {
+	margin-left: 202px;
+}
+.goods-info .unit-pri {
+	margin-left: 334px;
+}
+.goods-info .quantity {
+	margin-left: 114px;
+}
+.goods-info .total {
+	margin-left: 118px;
+}
+.goods-info .handle {
+	margin-left: 112px;
+}
+.own-info {
+	height: 42px;
+	border-bottom: 2px solid #ededed;
+}
+.own-info .own  {
+  	float: left;
+  	margin-top: 20px;
+}
+.own-info .own span {
+	display: inline-block;
+	width: 54px;
+	height: 18px;
+	background-color: #c81623;
+	color: #fff;
+	text-align: center;
+}
+.own-info .freight {
+	float: right;
+	margin-top: 20px;
+}
+.selected-pro {
+	/*height: 640px;*/
+	margin-top: 18px;
+	border: 1px solid #ededed;
+}
+.selected-pro .apple-mac {
+    height: 108px;
+    border-top: 1px solid #ededed;
+    border-bottom: 1px solid #ededed;
+}
+.apple-mac .mac-info {
+	/*width: 336px;
+	height: 108px;*/
+	float: left;
+}
+.mac-info input {
+	float: left;
+	margin-left: 5px;
+	margin-top: 14px;
+}
+.mac-info img {
+	float: left;
+	width: 86px;
+	height: 87px;
+	margin-left: 10px;
+	margin-top: 12px;
+}
+.mac-info .mac-detail {
+	width: 208px;
+	height: 68px;
+	line-height: 22px;
+	float: left;
+	margin: 14px 0 0 8px;
+}
+.mac-info .mac-detail p .gift {
+	display: inline-block;
+	width: 16px;
+	height: 16px;
+	background: #c81623 url(../upload/gift.png) center center no-repeat;
+	vertical-align: middle;
+}
+.mac-detail .gift {
+   width: 12px;
+   height: 12px;
+}
+
+.mac-info .mac-detail p a {
+	color: #999;
+}
+.apple-mac .size {
+	float: left;
+	margin-left: 32px;
+}
+.apple-mac .size p {
+	margin-top: 16px;
+}
+.apple-mac .unit-price {
+	float: left;
+	margin-left: 92px;
+}
+.apple-mac .unit-price p {
+	margin-top: 16px;
+}
+.apple-mac .cho-qu {
+	float: left;
+	margin-left: 96px;
+	padding-top: 10px;
+	text-align: center;
+}
+.apple-mac .cho-qu .reduce,
+.apple-mac .cho-qu .plus {
+	width: 28px;
+	height: 28px;
+	border: 1px solid #ededed;
+	float: left;
+	text-align: center;
+	line-height: 28px;
+}
+.apple-mac .cho-qu input {
+	width: 38px;
+	height: 28px;
+	border-top: 1px solid #ededed;
+	border-bottom: 1px solid #ededed;
+	float: left;
+	text-indent: 16px;
+}
+.apple-mac .cho-qu p {
+	color: #999;
+}
+.apple-mac .small-t {
+	width: 60px;
+	padding-top: 14px;
+	float: left;
+	margin-left: 85px;
+}
+.apple-mac .small-t p {
+	font-size: 14px;
+	font-weight: bold;
+}
+.apple-mac .focus {
+	width: 108px;
+	float: right;
+	padding-top: 14px;
+}
+.apple-mac .focus p {
+	line-height: 20px;
+}
+
+/*第二个开始*/
+
+.apple-com {
+	height: 200px;
+}
+.apple-com .com-l {
+/*	width: 500px;*/
+	height: 200px;
+	float: left;
+	text-align: center;
+}
+.apple-com .com-l .bread {
+	height: 46px;
+	line-height: 46px;
+}
+.com-l .bread .change {
+	width: 46px;
+	height: 18px;
+	border: 1px solid #c81623;
+	line-height: 18px;
+	text-align: center;
+	margin: 8px 12px 20px 8px;
+	display: inline-block;
+}
+.com-l .bread .change a {
+	color: #c81623;
+}
+/*.com-l .bread .change-ch {
+	display: inline-block;
+}*/
+.com-l .bread .check {
+	display: inline-block;
+	width: 70px;
+	height: 18px;
+	background-color: #c81623;
+	color: #fff;
+	line-height: 18px;
+	text-align: center;
+	margin-left: 10px;
+}
+.com-l .bread .icon-youjiantou {
+	vertical-align: middle;
+}
+
+.com-l .com-content {
+/*	height: 220px;*/
+	width: 500px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.com-l .com-content input {
+	float: left;
+	margin-left: 5px;
+}
+.com-l .com-content img {
+	float: left;
+	width: 86px;
+	height: 87px;
+	margin-left: 10px;
+}
+.com-l .com-content .mac-detail {
+	/*width: 208px;*/
+	height: 68px;
+	line-height: 22px;
+	float: left;
+	margin-left: 8px;
+}
+.com-content .mac-detail p span {
+	margin-left: 14px;
+}
+.com-content .mac-detail p em {
+	margin-left: 54px;
+}
+.com-l p {
+	line-height: 20px;
+}
+.apple-com .unit-price {
+	float: left;
+	margin-left: 104px;
+}
+.apple-com .unit-price p {
+	margin-top: 16px;
+}
+.apple-com .cho-qu {
+	float: left;
+	margin-left: 96px;
+	padding-top: 10px;
+	text-align: center;
+}
+.apple-com .cho-qu .reduce,
+.apple-com .cho-qu .plus {
+	width: 28px;
+	height: 28px;
+	border: 1px solid #ededed;
+	float: left;
+	text-align: center;
+	line-height: 28px;
+}
+.apple-com .cho-qu input {
+	width: 38px;
+	height: 28px;
+	border-top: 1px solid #ededed;
+	border-bottom: 1px solid #ededed;
+	float: left;
+	text-indent: 16px;
+}
+.apple-com .cho-qu p {
+	color: #999;
+}
+.apple-com .small-t {
+	width: 60px;
+	padding-top: 14px;
+	float: left;
+	margin-left: 85px;
+}
+.apple-com .small-t p {
+	font-size: 14px;
+	font-weight: bold;
+}
+.apple-com .focus {
+	width: 108px;
+	float: right;
+	padding-top: 14px;
+}
+.apple-com .focus p {
+	line-height: 20px;
+}
+
+/*第二个结束*/
+
+/*神州数码专营店开始*/
+.last-pro {
+	height: 246px;
+	overflow: hidden;
+}
+.last-pro-t	{
+	height: 42px;
+}
+.last-pro-t input {
+	width: 12px;
+	height: 12px;
+	margin-left: 5px;
+	margin-top: 20px;
+}
+.last-pro-t span {
+	font-size: 14px;
+	margin-top: 20px;
+}
+
+/*商品介绍开始*/
+
+.dell-com {
+	height: 200px;
+	border: 1px solid #ededed;
+}
+.dell-com .com-l {
+/*	width: 500px;*/
+	height: 200px;
+	float: left;
+	text-align: center;
+}
+.dell-com .com-l .bread {
+	height: 46px;
+	line-height: 46px;
+}
+.com-l .bread .change {
+	width: 46px;
+	height: 18px;
+	border: 1px solid #c81623;
+	line-height: 18px;
+	text-align: center;
+	margin: 8px 12px 20px 8px;
+	display: inline-block;
+}
+.com-l .bread .change a {
+	color: #c81623;
+}
+/*.com-l .bread .change-ch {
+	display: inline-block;
+}*/
+.com-l .bread .check {
+	display: inline-block;
+	width: 70px;
+	height: 18px;
+	background-color: #c81623;
+	color: #fff;
+	line-height: 18px;
+	text-align: center;
+	margin-left: 10px;
+}
+.com-l .bread .icon-youjiantou {
+	vertical-align: middle;
+}
+
+.com-l .com-content {
+/*	height: 220px;*/
+	width: 500px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.com-l .com-content input {
+	float: left;
+	margin-left: 5px;
+}
+.com-l .com-content img {
+	float: left;
+	width: 86px;
+	height: 87px;
+	margin-left: 10px;
+}
+.com-l .com-content .mac-detail {
+	/*width: 208px;*/
+	height: 68px;
+	line-height: 22px;
+	float: left;
+	margin-left: 8px;
+}
+.com-content .mac-detail p span {
+	margin-left: 14px;
+}
+.com-content .mac-detail p em {
+	margin-left: 54px;
+}
+.com-l p {
+	line-height: 20px;
+}
+.dell-com .unit-price {
+	float: left;
+	margin-left: 104px;
+}
+.dell-com .unit-price p {
+	margin-top: 16px;
+}
+.dell-com .cho-qu {
+	float: left;
+	margin-left: 96px;
+	padding-top: 10px;
+	text-align: center;
+}
+.dell-com .cho-qu .reduce,
+.dell-com .cho-qu .plus {
+	width: 28px;
+	height: 28px;
+	border: 1px solid #ededed;
+	float: left;
+	text-align: center;
+	line-height: 28px;
+}
+.dell-com .cho-qu input {
+	width: 38px;
+	height: 28px;
+	border-top: 1px solid #ededed;
+	border-bottom: 1px solid #ededed;
+	float: left;
+	text-indent: 16px;
+}
+.dell-com .cho-qu p {
+	color: #999;
+}
+.dell-com .small-t {
+	width: 60px;
+	padding-top: 14px;
+	float: left;
+	margin-left: 85px;
+}
+.dell-com .small-t p {
+	font-size: 14px;
+	font-weight: bold;
+}
+.dell-com .focus {
+	width: 108px;
+	float: right;
+	padding-top: 14px;
+}
+.dell-com .focus p {
+	line-height: 20px;
+}
+/*神州数码专营店结束*/
+
+/*结算一栏开始*/
+.charge	{
+	height: 48px;
+	border: 1px solid #ededed;
+	margin-top: 20px;
+}
+.charge input {
+	width: 12px;
+	height: 12px;
+	border: 1px solid #ededed;
+	float: left;
+	margin-left: 5px;
+	margin-top: 18px;
+}
+.charge span {
+	float: left;
+	margin: 16px 12px 0; 
+}
+.charge .dele-op {
+	/*width: 264px;*/
+	height: 48px;
+	float: left;
+}
+.charge .dele-op li {
+	float: left;
+	line-height: 26px;
+	padding: 12px;
+}
+.charge-r {
+	width: 450px;
+	float: right;
+}
+.charge-r .settle-l {
+	width: 304px;
+}
+.charge-r .settle-l span {
+	margin: 6px 0 0 10px;
+}
+.charge-r .settle-l span.money {
+	font-size: 16px;
+	font-weight: bold;
+	color: #e60012;
+	margin-top: 4px;
+}
+.charge-r .settle-l p {
+	margin-left: 160px;
+	height: 14px;
+}
+.charge-r .settle-r {
+	height: 48px;
+	width: 108px;
+	background-color: #e60012;
+	text-align: center;
+}
+.charge-r .settle-r a {
+	color: #fff;
+	font-size: 16px;
+	line-height: 48px;
+}
+/*结算一栏结束*/
+/* <!-- 删除的商品开始 -->*/
+.re-buy {
+	height: 106px;
+}
+.re-buy p {
+	height: 52px;
+	line-height: 52px;
+	text-indent: 5px;
+}
+.re-buy .sendio {
+	height: 32px;
+	background-color: #fffdee;
+}
+.sendio .sendio-info {
+	text-indent: 10px;
+	line-height: 32px;
+}
+.sendio .sendio-price {
+	margin-left: 360px;
+	line-height: 32px;
+}
+.sendio .sendio-qua {
+	margin-left: 168px;
+	line-height: 32px;
+}
+.sendio .sendio-reb {
+	margin-left: 228px;
+	line-height: 32px;
+}
+.sendio .my-focus {
+	margin-right: 16px;
+	line-height: 32px;
+}
+/* <!-- 删除的商品结束 -->*/
+
+/*<!-- 猜你喜欢开始 -->*/
+.like {
+	height: 388px;
+}
+.like-title {
+	height: 40px;
+	background-color: #f1f1f1;
+	border: 1px solid #ededed;
+}
+.like-title li {
+	height: 40px;
+	width: 88px;
+	float: left;
+	line-height: 40px;
+	text-align: center;
+}
+.like-title li:first-child {
+	background-color: #c81623;
+}
+.like-title li:first-child a {
+	color: #fff;
+}
+.like-choice {
+	height: 348px;
+	position: relative;
+}
+.like-choice .arrow {
+	height: 48px;
+	width: 18px;
+	background-color: #ddd;
+	position: absolute;
+	top: 50%;
+	margin-top: -24px;
+	/*text-align: center;*/
+}
+.like-choice .arrow-l {
+	left: 0;
+}
+.like-choice .arrow-r {
+	right: 0;
+}
+.like-choice .arrow .icon-youjiantou {
+	line-height: 48px;
+	font-size: 22px;
+}
+.like-choice .choice-pro {
+	width: 983px;
+	height: 308px;
+	border: 1px dashed #ededed;
+	margin-left: 40px;
+	margin-top: 16px;
+}
+.like-choice .choice-pro li {
+	float: left;
+	height: 308px;
+	width: 245px;
+	border-right: 1px dashed #ededed;
+}
+.like-choice .choice-pro li:last-child {
+	border-right: 0;
+}
+.like-choice .choice-pro li img {
+	width: 178px;
+	height: 162px;
+	margin: 20px 0 10px 34px;
+}
+.like-choice .choice-pro li p {
+	margin-left: 28px;
+	margin-right: 25px;
+	line-height: 20px;
+}
+.like-choice .choice-pro li p.price {
+	padding-left: 74px;
+}
+.put-cart {
+	height: 28px;
+	width: 124px;
+	border: 1px solid #ededed;
+	text-align: center;
+	margin-left: 60px;
+	margin-top: 8px;
+	border-radius: 5px;
+}
+/* <!-- 猜你喜欢结束 -->*/

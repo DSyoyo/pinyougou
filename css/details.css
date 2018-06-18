@@ -1,0 +1,635 @@
+.cn-l .cn-list {
+	display: none;
+}
+ /*<!-- 详情主页开始 -->*/
+.floor {
+	height: 34px;
+	/* width: 416px; */
+	margin-top: 14px;
+	line-height: 34px;
+	font-weight: bold;
+	font-size: 16px;
+}
+.floor .icon-youjiantou {
+	margin: 0 12px;
+	line-height: 1.2;
+	position: relative;
+	top: 2px;
+}
+
+/*手机信息介绍开始*/
+.m-info	{
+	height: 560px;
+}
+.m-info-l {
+    width: 402px;
+    height: 560px;
+}
+.m-info-l .iphone-pic {
+   width: 402px;
+   height: 400px;
+   text-align: center;
+   border: 1px solid #ccc;
+}
+.m-info-l .iphone-pic img {
+	width: 200px;
+	height: 400px;  
+}
+.spec-scroll {
+	text-align: center;
+	margin-top: 50px;
+	margin-bottom: 26px;
+	cursor: pointer;
+}
+.spec-scroll .prev {
+	width: 22px;
+	height: 54px;
+	border: 1px solid #ccc;
+	display: inline-block;
+	float: left;
+	background: url(../upload/disabled-prev.png) center center no-repeat;
+	margin-top: 3px;
+}
+.spec-scroll .next {
+	width: 22px;
+	height: 54px;
+	border: 1px solid #ccc;
+	display: inline-block;
+	float: right;
+	background: url(../upload/disabled-next.png) center center no-repeat;
+	margin-top: 3px;
+}
+.spec-scroll a {
+	width: 62px;
+	height: 62px;
+	line-height: 62px;
+	border: 1px solid #ccc;
+	display: inline-block;
+	margin-right: 3px;
+}
+.spec-scroll a img {
+	width: 29px;
+	height: 53px;
+}
+.m-info-l .share span {
+	margin-right: 24px;
+} 
+.m-info-l .share span.compare {
+	margin-right: 0;
+}
+.share span.compare input {
+	vertical-align: middle;
+}
+.m-info-r {
+	width: 718px;
+	height: 560px;
+}
+
+.m-info-r h3 {
+	font-size: 16px;
+	font-weight: bold;
+}
+.m-info-r p {
+	height: 48px;
+	line-height: 48px;	
+}
+.m-info-r .low-price {
+	height: 112px;
+	width: 718px;
+	background-color: #fee9eb;
+	position: relative;
+}
+.low-price .price-info {
+	height: 34px;
+}
+.low-price .price-info span {
+	/*width: 56px;*/
+	height: 34px;
+	line-height: 34px;
+	float: left;
+	margin-right: 5px;
+	margin-left: 10px;
+}
+.low-price .price-info .notice {
+    float: left;
+    height: 34px;
+    line-height: 34px;
+}
+.low-price .price-info .notice i {
+	font-weight: 700;
+	font-size: 24px;
+}
+.low-price .pro-info {
+	height: 60px;
+	margin-top: 18px;
+}
+.low-price .promotion {
+	display: inline-block;
+	margin-right: 10px;
+	margin-left: 10px;
+}
+.low-price .pro-info em {
+	width: 38px;
+	height: 32px;
+	background-color: #c81623;
+	color: #fff;
+	margin-right: 10px;
+	line-height: 32px;
+}
+.assess {
+	/*width: 104px;*/
+	height: 36px;
+	position: absolute;
+	right: 0;
+	top: 0;
+	line-height: 36px;
+	text-align: center;
+}
+.support span {
+	height: 34px;
+	line-height: 34px;
+	float: left;
+	margin-right: 5px;
+	margin-left: 10px;
+	display: inline-block;
+}
+.m-info-r .pro-color span {
+	line-height: 34px;
+	height: 34px;
+	margin-left: 10px;
+	display: inline-block;
+}
+.m-info-r .pro-color .color span {
+    display: inline-block;
+    height: 40px;
+    line-height: 40px;
+    padding: 0 24px;
+    background-color: #f7f7f7;
+    border: 1px solid #ededed;
+}
+.pro-color .color span.current {
+    border: 1px solid #c81623;
+}
+.version {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.version span {
+    line-height: 34px;
+    height: 34px;
+    margin-left: 10px;
+    display: inline-block;
+}
+.version .version-r span {
+	display: inline-block;
+	height: 40px;
+	line-height: 40px;
+	background-color: #f7f7f7;
+	border: 1px solid #ededed;
+	padding: 0 24px;
+}
+.version .version-r span.current {
+	border: 1px solid #c81623;
+}
+.capacity span {
+    line-height: 34px;
+    height: 34px;
+    margin-left: 10px;
+    display: inline-block;
+}
+.capacity .capacity-r span {
+	display: inline-block;
+	height: 40px;
+	line-height: 40px;
+	background-color: #f7f7f7;
+	border: 1px solid #ededed;
+	padding: 0 24px;
+}
+.capacity .capacity-r span.current {
+	border: 1px solid #c81623;
+}
+.buy-way {
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+.buy-way span {
+    line-height: 34px;
+    height: 34px;
+    margin-left: 10px;
+    display: inline-block;
+}
+.buy-way .buy-way-r span {
+	display: inline-block;
+	height: 40px;
+	line-height: 40px;
+	background-color: #f7f7f7;
+	border: 1px solid #ededed;
+	padding: 0 24px;
+}
+.buy-way .buy-way-r span.current {
+	border: 1px solid #c81623;
+}
+.set span {
+    line-height: 34px;
+    height: 34px;
+    margin-left: 10px;
+    display: inline-block;
+}
+.set .set-r span {
+	display: inline-block;
+	height: 40px;
+	line-height: 40px;
+	background-color: #f7f7f7;
+	border: 1px solid #ededed;
+	padding: 0 24px;
+}
+.quantity {
+	margin-top: 20px;
+}
+.quantity .number {
+	width: 48px;
+	height: 44px;
+	border: 1px solid #ededed;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+.number .number-l {
+   width: 34px;
+   height: 44px;
+   line-height: 44px;
+   text-align: center;
+}
+.number .number-r{
+	width: 13px;
+	height: 44px;
+	text-align: center;
+	background-color: #f7f7f7;
+	border-left: 1px solid #ededed;
+}
+.number .number-r .add {
+	border-bottom: 1px solid #ededed;
+}
+.add-cart {
+	height: 46px;
+	width: 141px;
+	background-color: #c81623;
+	text-align: center;
+	line-height: 46px;
+	font-size: 18px;
+	color: #fff;
+}
+/*手机信息介绍结束*/
+
+/*<!--  详情主页中间模块左边相关产品开始 -->*/
+.details {
+	margin-top: 30px;
+}
+.details-l {
+	width: 206px;
+	height: 2404px;
+	border: 1px solid #ededed;
+}
+.details-l .classify {
+	width: 103px;
+	/*height: 34px;*/
+/*	border: 1px solid #ededed;*/
+/*	background-color: #f7f7f7;*/
+	box-sizing: border-box;
+	line-height: 34px;
+	text-align: center;
+}
+.classify .classify-list {
+	margin: 0 10px;
+	width: 188px;
+/*	height: 148px;*/
+}
+.classify .classify-list ul {
+	width: 188px;
+	display: block;
+}
+.classify .classify-list li {
+	float: left;
+	width: 94px;
+	text-align: left;
+	text-indent: 10px;
+	border-bottom: 1px dashed #ededed;
+}
+.details-l .intro-pro {
+	width: 103px;
+/*	height: 34px;*/
+	border: 1px solid #ededed;
+	background-color: #f7f7f7;
+	box-sizing: border-box;
+	line-height: 34px;
+	text-align: center;
+}
+.more-pro {
+	margin-left: 10px;
+	margin-right: 10px;
+	line-height: 34px;
+	border-bottom: 1px solid #ededed;
+}
+.usb {
+	width: 186px;
+	/*height: 216px;*/
+	border-bottom: 1px solid #ededed;
+	margin: 0 8px;
+}
+.usbpic {
+	width: 188px;
+	height: 118px;
+	text-align: center;
+}
+.usbpic img {
+	width: 139px;
+	height: 90px;
+}
+.usb p {
+	margin: 10px 0;
+}
+.usb span {
+	font-weight: bold;
+}
+.usb .add-ca {
+	width: 90px;
+	height: 28px;
+	border: 1px solid #ededed;
+	text-align: center;
+	margin: 10px auto 20px;
+}
+.usb .add-ca a {
+	font-size: 14px;
+}
+
+/*<!--  详情主页中间模块左边相关产品结束 -->*/
+
+/*<!--  详情主页中间模块右边相关产品开始 -->*/
+.details-r {
+    width: 976px;
+    height: 2404px;
+    border: 1px solid #ededed;
+}
+.choose {
+	height: 300px;
+	width: 976px;
+}
+.choose .choose-title {
+	height: 38px;
+	box-sizing: border-box;
+	border-bottom: 1px solid #ededed;
+	background-color: #f7f7f7;
+}
+.choose .choose-title span {
+	height: 38px;
+	width: 86px;
+	background-color: #c81623;
+	line-height: 38px;
+	text-align: center;
+	color: #fff;
+	display: block;
+}
+.choose .choose-con {
+	height: 260px;
+}
+.choose-con .con-list {
+	height: 40px;
+}
+.choose-con .con-list li {
+	float: left;
+	line-height: 40px;
+	text-align: center;
+	padding: 0 20px;
+}
+.package {
+	height: 220px;
+}
+.package .package-list {
+	height: 220px;
+	width: 805px;
+}
+.package .package-list li {
+	float: left;
+	width: 155px;
+	height: 220px;
+	text-align: center;
+}
+.package-list li .list-pic1 {
+	height: 130px;
+	width: 130px;
+	margin: 0 auto;
+}
+.package-list li .list-pic1:hover {
+	border: 1px solid #c81623;
+}
+.package-list li .list-pic1 img {
+	width: 58px;
+	height: 116px;
+	margin-top: 7px;
+}
+.package-list li.money {
+	font-size: 14px;
+}
+.package-list li.plus {
+	width: 10px;
+	height: 10px;
+	font-size: 20px;
+	padding-top: 50px;
+}
+.package-list li .list-pic2 {
+	height: 130px;
+	width: 130px;
+	margin: 0 auto;
+}
+.package-list li .list-pic2:hover {
+	border: 1px solid #c81623;
+}
+.package-list li .list-pic2 img {
+	width: 117px;
+	height: 108px;
+	margin-top: 7px;
+}
+.package-list li .list-pic3 {
+	height: 130px;
+	width: 130px;
+	margin: 0 auto;
+}
+.package-list li .list-pic3:hover {
+	border: 1px solid #c81623;
+}
+.package-list li .list-pic3 img {
+	width: 117px;
+	height: 108px;
+	margin-top: 7px;
+}
+.package-list li .list-pic4 {
+	height: 130px;
+	width: 130px;
+	margin: 0 auto;
+}
+.package-list li .list-pic4:hover {
+	border: 1px solid #c81623;
+}
+.package-list li .list-pic4 img {
+	width: 117px;
+	height: 108px;
+	margin-top: 7px;
+}
+.package-list li .list-pic5 {
+	height: 130px;
+	width: 130px;
+	margin: 0 auto;
+}
+.package-list li .list-pic5:hover {
+	border: 1px solid #c81623;
+}
+.package-list li .list-pic5 img {
+	width: 117px;
+	height: 108px;
+	margin-top: 7px;
+}
+.package-list li.youjt {
+    width: 20px;
+    height: 50px;
+    background-color: #ddd;
+    text-align: center;
+    line-height: 50px;
+    margin-top: 62px;
+}	
+.package-list li.youjt .icon-youjiantou {
+	font-size: 20px;
+	font-weight: bold;
+	color: #fff;
+}
+.package .total {
+	height: 220px;
+	width: 168px;
+}
+.total p {
+	text-indent: 14px;
+	margin-bottom: 18px;
+}
+.total h5 {
+  	text-indent: 14px;
+}
+.total .total-m {
+	font-size: 24px;
+	margin-left: 14px;
+}
+.total .put-cart {
+	width: 140px;
+	height: 45px;
+	background-color: #c81623;
+	line-height: 45px;
+	text-align: center;
+	margin-top: 40px;
+	margin-left: 14px;
+}
+.total .put-cart a {
+    color: #fff;
+    font-size: 18px;
+}
+.pro-introduction {
+	height: 368px;
+	margin-top: 20px;
+	border-top: 1px solid #ededed;
+	border-bottom: 1px solid #ededed;
+}
+.pro-introduction .pro-intro-title {
+   	height: 38px;
+   	border-bottom: 1px solid #ededed;
+   	background-color: #f1f1f1;
+}
+.pro-intro-title ul li {
+	float: left;
+	padding: 0 20px;
+	line-height: 38px;
+	text-align: center;
+}
+.pro-intro-title li.current {
+	background-color: #c81623;
+}
+.pro-intro-title li.current a {
+	color: #fff;
+}
+.pro-intro-content {
+	height: 330px;
+	position: relative;
+}
+.pro-intro-content ul {
+    height: 292px;
+    margin: 20px 0 20px 16px;
+}
+.pro-intro-content ul li {
+	height: 21px;
+	line-height: 21px;
+}
+.more-para {
+	height: 20px;
+	/*width: 106px;*/
+	position: absolute;
+	right: 0;
+	bottom: 30px;
+}
+.more-para a {
+	font-weight: bold;
+}
+.more-para .icon-xiajiantou {
+	vertical-align: middle;
+}
+.pic-details1 {
+	height: 774px;
+	text-align: center;
+}
+.pic-details1 img {
+	width: 736px;
+	height: 777px;
+}
+.pic-details2 {
+	height: 915px;
+	width: 979px;
+	text-align: center;
+}
+/*<!--  详情主页中间模块右边相关产品结束 -->*/
+/* <!-- 详情主页结束 -->*/
+
+/*<!-- 猜你喜欢模块开始 -->*/
+.like {
+	height: 335px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	border: 1px solid #ededed;
+}
+.like .like-title {
+	height: 40px;
+	border-bottom: 1px solid #ededed;
+	background-color: #f7f7f7;
+	line-height: 40px;
+	font-size: 16px;
+}
+.like-content {
+	height: 294px;
+}
+.like-content li {
+	float: left;
+	width: 185px;
+	height: 294px;
+}
+.like-content ul {
+	margin: 0 10px 0 76px;
+}
+.like-content li img {
+	margin-bottom: 15px;
+}
+.like-content li p {
+	height: 21px;
+	line-height: 21px;
+}
+.like-content li p.price {
+	margin-top: 10px;
+	font-size: 16px;
+	font-weight: bold;
+}
+.like-content li p.assess1 {
+	margin-top: 34px;
+}
+/*<!-- 猜你喜欢模块结束 -->*/
